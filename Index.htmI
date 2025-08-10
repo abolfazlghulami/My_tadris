@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>تدریس خصوصی ریاضی، فیزیک و شیمی کنکوری - دکتر ابوالفضل غلامی</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0275d8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #025aa5;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+        h1, h2 {
+            color: #0275d8;
+        }
+        .intro {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .service-box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            margin-top: 40px;
+            text-align: center;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #025aa5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+            .service-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>تدریس خصوصی ریاضی، فیزیک و شیمی کنکوری</h1>
+    <p>با دکتر ابوالفضل غلامی - تضمینی و کاربردی</p>
+</header>
+
+<nav>
+    <a href="#about">درباره من</a>
+    <a href="#services">خدمات</a>
+    <a href="#contact">تماس با من</a>
+</nav>
+
+<div class="container">
+    <section class="intro" id="about">
+        <h2>سلام!</h2>
+        <p>من دکتر ابوالفضل غلامی هستم، مدرس خصوصی ریاضی، فیزیک و شیمی برای دانش‌آموزان کنکوری.  
+        با متدهای تضمینی و کاملاً کاربردی، به شما کمک می‌کنم مفاهیم سخت را ساده یاد بگیرید و درصدتان در کنکور به طرز چشمگیری افزایش یابد.</p>
+        <p>تجربه چندین سال تدریس موفق و رضایت شاگردانم، تضمین کیفیت آموزش من است.</p>
+    </section>
+
+    <section id="services">
+        <h2>خدمات من</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>ریاضی کنکور</h3>
+                <p>آموزش مفهومی و تمرین‌های کاربردی برای موفقیت در کنکور ریاضی.</p>
+            </div>
+            <div class="service-box">
+                <h3>فیزیک کنکور</h3>
+                <p>تدریس نکات کلیدی و حل تست‌های مهم برای افزایش درصد فیزیک.</p>
+            </div>
+            <div class="service-box">
+                <h3>شیمی کنکور</h3>
+                <p>تدریس دقیق و کاربردی مفاهیم شیمی برای نتیجه بهتر در کنکور.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>تماس با من</h2>
+        <p>📞 شماره تماس: 09379507817</p>
+        <p>📧 ایمیل: example@email.com</p>
+        <p>📱 اینستاگرام: <a href="https://instagram.com/example" target="_blank">@example</a></p>
+    </section>
+</div>
+
+<footer>
+    © 2025 همه حقوق محفوظ است - دکتر ابوالفضل غلامی
+</footer>
+
+</body>
+</html>
