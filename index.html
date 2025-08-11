@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -10,39 +9,56 @@
     <meta name="description" content="تدریس خصوصی ریاضی، فیزیک و شیمی برای کنکور و امتحانات نهایی توسط دکتر ابوالفضل غلامی. آموزش مفهومی و تضمینی، حل تست و مشاوره تحصیلی.">
     <meta name="keywords" content="تدریس خصوصی ریاضی, تدریس خصوصی فیزیک, تدریس خصوصی شیمی, معلم خصوصی کنکور, آموزش آنلاین ریاضی, آموزش فیزیک کنکور, آموزش شیمی کنکور">
 
-    <!-- استایل ساده -->
+    <!-- استایل مدرن -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
         body {
-            font-family: tahoma, sans-serif;
-            text-align: center;
-            background-color: #f8f9fa;
+            font-family: 'Vazirmatn', sans-serif;
+            background: linear-gradient(135deg, #00b4d8, #0077b6);
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
         }
         .card {
-            background: #fff;
+            background: #ffffff;
             max-width: 450px;
-            margin: 50px auto;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 90%;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
         }
         h1 {
-            color: #333;
-            font-size: 1.4rem;
+            color: #0077b6;
+            font-size: 1.5rem;
             margin-bottom: 15px;
         }
         p {
-            color: #555;
             line-height: 1.8;
+            color: #555;
+            font-size: 1rem;
         }
         .phone {
             margin-top: 20px;
             font-size: 1.1rem;
+            font-weight: bold;
         }
         .phone a {
-            color: #007bff;
+            color: #00b4d8;
             text-decoration: none;
+        }
+        .phone a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
@@ -59,3 +75,4 @@
 
 </body>
 </html>
+
