@@ -1,2 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تدریس خصوصی - ابوالفضل غلامی</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px 0;
+        }
+        section {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin: 0 0 15px;
+        }
+        p {
+            line-height: 1.8;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 30px;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>تدریس خصوصی</h1>
+        <h2>ابوالفضل غلامی</h2>
+    </header>
 
-<h1>Hello World</h1>
+    <section>
+        <h2>درباره من</h2>
+        <p>
+            با چندین سال تجربه در تدریس خصوصی دروس ریاضی، فیزیک و برنامه‌نویسی، آماده‌ام تا به شما در یادگیری بهتر کمک کنم.
+        </p>
+
+        <h2>خدمات</h2>
+        <ul style="text-align:right;">
+            <li>تدریس ریاضی دبیرستان و دانشگاه</li>
+            <li>فیزیک پایه و پیشرفته</li>
+            <li>برنامه‌نویسی (Python, JavaScript, HTML/CSS)</li>
+            <li>مشاوره در پروژه‌ها و تحقیق‌ها</li>
+        </ul>
+
+        <div class="contact">
+            <p>📞 شماره تماس: <a href="tel:09120000000">09120000000</a></p>
+            <p>📧 ایمیل: <a href="mailto:example@email.com">example@email.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
